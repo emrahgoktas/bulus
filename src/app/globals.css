@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #222222;
+  --color-coral: #ff385c;
+  --color-coral-dark: #e00b41;
+  --color-coral-text: #d70466;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-dark: #1ebe5a;
+  --color-muted: #5c5c5c;
+  --color-line: #ebebeb;
+  --color-surface: #f7f7f7;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+body {
+  background: #ffffff;
+  color: #222222;
+}
+
+::selection {
+  background: #ff385c;
+  color: #ffffff;
+}
